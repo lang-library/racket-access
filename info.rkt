@@ -10,8 +10,8 @@
 (define scribblings '(("access.scrbl")))
 (define primary-file "main.rkt")
 (define release-notes '((p "First release")))
-(define deps '("base"
-               "pprint-all"
+(define deps '("compatibility-lib"
+               "base"
                ))
 (define build-deps '("racket-doc"
                      "scribble-lib"))

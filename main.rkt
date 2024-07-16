@@ -3,9 +3,9 @@
 
 (module common racket
   #;(require compatibility/defmacro)
-  (require pprint-all)
+  #;(require pprint-all)
   (provide
-   echo
+   #;echo
    transform-replace
    )
   (define (my-function x) (+ x 1))
@@ -34,7 +34,7 @@
   $x
   )
 
-(define-macro (!-debug $x . $specs)
+#;(define-macro (!-debug $x . $specs)
   (for ([$spec $specs])
     (echo $spec "$spec")
     (echo $x "$x(1)")
@@ -45,4 +45,7 @@
   $x
   )
 
-(provide ! !-debug)
+(provide
+ !
+ #;!-debug
+ )
