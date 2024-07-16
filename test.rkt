@@ -1,7 +1,7 @@
 #! /usr/bin/env racket
 #lang racket
 (require "./main.rkt")
-(require pprint-all)
+#;(require pprint-all)
 
 (define x (hash 'abc '(777 888)))
 
