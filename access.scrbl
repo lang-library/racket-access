@@ -6,7 +6,7 @@
 
 @defmodule[access]
 
-This basically provides @racket[!], and @racket[!-debug].
+This basically provides @racket[!].
 
 @table-of-contents[]
 
