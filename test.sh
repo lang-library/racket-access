@@ -16,4 +16,4 @@ rcedit-x64.exe ./test.exe --set-version-string LegalCopyright  "Copyright JavaCo
 
 rm -rf inst.tmp
 raco distribute inst.tmp test.exe || true
-#vbpack.exe -i inst.tmp/test.exe -o ./test.exe
+vbpack.exe -i inst.tmp/test.exe -o ./test.exe
